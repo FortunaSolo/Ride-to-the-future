@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: rgb(235, 248, 248);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1ch 3.5ch;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header li {
+  padding: 0.5ch 1.5ch;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin: 100px 0 0 50px;
+}
+main h4 {
+  font-weight: 400;
+  letter-spacing: 1.2ch;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.1rem;
+}
+.future {
+  font-size: 4.5rem;
+  font-weight: 700;
+  letter-spacing: 0.15ch;
+}
+main p {
+  margin: 4ch 0 2ch 0;
+  font-size: 1rem;
+}
+button {
+  font-size: 0.6rem;
+  padding: 1ch 2ch;
+  border-radius: 1ch;
+  background: rgb(107, 210, 231);
+  color: white;
+  border: none;
+}
+main button {
+  font-size: 1rem;
+}
+main img {
+  transform: scale(1.2);
+}
+.left-detail {
+  display: flex;
+  background: hwb(180 74% 8% / 0.756);
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  border-radius: 20px;
+  margin: 50px 0;
+}
+.left-detail p {
+  padding: 20px 20px;
+  margin: 0;
+  line-height: 0.8;
+}
+.left-detail span {
+  font-size: 0.5rem;
+}
+.side-bar p {
+  text-orientation: sideways;
+  writing-mode: vertical-rl;
+  letter-spacing: 1ch;
+  text-align: center;
+  z-index: -1;
+  padding: 0 4ch;
+  color: white;
+}
+.top {
+  background: rgb(93, 178, 195);
+  position: absolute;
+
+  height: 50vh;
+  top: 0;
+  right: 0;
+}
+.search {
+  font-size: 2rem;
+  color: white;
+}
+.bottom {
+  background: rgb(107, 210, 231);
+
+  position: absolute;
+  right: 0;
+  top: 50vh;
+  height: 50vh;
+}
+
+.half-circle {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(214, 239, 244, 0.729);
+  position: absolute;
+  right: -40vw;
+  top: -5vh;
+  border-radius: 50% 0 50% 50%;
+  color: white;
+  font-size: 5rem;
+  z-index: -500;
+  overflow: hidden;
+}
+.half-circle h1 {
+  font-weight: 300;
+  position: absolute;
+  left: 130px;
+  top: 120px;
+  z-index: 1;
+}
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(93, 178, 195);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: white;
+  font-size: 4rem;
+  font-weight: 200;
+  position: absolute;
+  right: 60px;
+  bottom: 5vh;
+}
